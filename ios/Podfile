@@ -21,6 +21,10 @@ target 'Mova' do
 
   pod 'RNReanimated', :path => '../node_modules/react-native-reanimated'
 
+  pod 'lottie-react-native', :path => '../node_modules/lottie-react-native'
+
+  pod 'RNSVG', :path => '../node_modules/react-native-svg'
+
   target 'MovaTests' do
     inherit! :complete
     # Pods for testing
