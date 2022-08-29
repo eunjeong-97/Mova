@@ -18,7 +18,7 @@ export default () => {
             screenOptions={{
                 drawerPosition: 'right',
                 drawerType: 'front',
-                drawerStyle: (init ? null : { flex: 1 }),
+                drawerStyle: (init ? null : { width: '100%', }),
                 headerShown: false
             }}
         >
